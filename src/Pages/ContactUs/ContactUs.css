@@ -1,0 +1,18 @@
+
+  .contact-us form input,
+  .contact-us form textarea {
+    border-radius: 25px !important;
+  }
+  
+ .contact-us .btn-info {
+    background-color: #17a2b8;
+  }
+  
+ .contact-us .bg-info {
+    background-color: #17a2b8 !important;
+  }
+  
+  .contact-us h5 {
+    font-weight: bold;
+  }
+  

@@ -12,7 +12,7 @@ Author: HasTech
     color: #242424;
   }
   .top_right > ul > li:hover a:not([href]):not([tabindex]):hover,.header_black .top_right > ul > li:hover a:not([href]):not([tabindex]):hover{
-    color: #4BCAFF;
+    color: #00B3AC;
   }
   .top_right > ul > li .currency-trigger span::after {
       content: "\f123";
@@ -82,7 +82,7 @@ Author: HasTech
     opacity: 0.9;
   }
   .mean-container .mean-nav ul li a:hover{
-    color: #4BCAFF;
+    color: #00B3AC;
   }
   .main_menu nav > ul > li > a span,.mean-container .mean-nav ul li a span,.main_menu nav > ul > li ul li a span {
       position: absolute;
@@ -119,10 +119,10 @@ Author: HasTech
       top: 3px;
   }
   .main_menu nav > ul > li > a span.sale,.mean-container .mean-nav ul li a span.sale,.mean-container .mean-nav ul li a span.sale, .main_menu nav > ul > li ul li a span.sale {
-      background: #4BCAFF;
+      background: #00B3AC;
   }
   .main_menu nav > ul > li > a span.sale::before,.mean-container .mean-nav ul li a span.sale::before,.mean-container .mean-nav ul li a span.sale::before, .main_menu nav > ul > li ul li a span.sale::before {
-    background: #4BCAFF;
+    background: #00B3AC;
   }
   .mean-container .mean-nav ul li a span {
       height: 18px;
@@ -199,7 +199,7 @@ Author: HasTech
       border-bottom: 1px solid #ebebeb;
   }
   .simple_product_content .product_price span.current_price span {
-      color: #4BCAFF;
+      color: #00B3AC;
       font-weight: 500;
   }
   .footer_widgets.footer_black {
@@ -239,7 +239,7 @@ Author: HasTech
       font-size: 12px;
   }
   .action_links ul li.add_to_cart .cart_button:hover {
-      background: #4BCAFF;
+      background: #00B3AC;
       color: #ffffff;
   }
   .action_links ul {
@@ -256,7 +256,7 @@ Author: HasTech
       display: none;
   }
   i.spr-icon.spr-icon-star,i.spr-icon.spr-icon-star-half-alt,i.spr-icon.spr-icon-star-empty {
-        color: #4BCAFF;
+        color: #00B3AC;
   }
   .product_ratings {
       height: 24px;
@@ -274,7 +274,7 @@ Author: HasTech
   span.price-box__new,span.main {
     font-size: 20px;
     font-weight: 500;
-    color: #4BCAFF;
+    color: #00B3AC;
   }
   span.main.amount.price-box__old {
     text-decoration: line-through;
@@ -288,7 +288,7 @@ Author: HasTech
     font-weight: 400;
   }
   .theme-default-button:hover {
-      background-color: #4BCAFF;
+      background-color: #00B3AC;
       color: #fff;
   }
   #quickViewModal .close {
@@ -314,7 +314,7 @@ Author: HasTech
       transition: .3s;
   }
   .product-coundown .single-countdown {
-      background: #4BCAFF;
+      background: #00B3AC;
       color: #fff;
   }
   .single_product:hover .product-coundown {
@@ -363,8 +363,8 @@ Author: HasTech
       margin-bottom: 18px;
   }
   .shipping_icon a:hover {
-      color: #4BCAFF;
-      border-color: #4BCAFF;
+      color: #00B3AC;
+      border-color: #00B3AC;
   }
   .single_banner.one {
       margin-bottom: 30px;
@@ -373,7 +373,7 @@ Author: HasTech
       padding: 0;
   }
   .pagination ul li.active {
-      background: #4BCAFF;
+      background: #00B3AC;
       color: #ffffff;
   }
   .pagination ul li {
@@ -413,7 +413,7 @@ Author: HasTech
       margin-right: 12px;
   }
   .list_button button.change-view.active {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .widget_categories .search_form  {
     position: relative;
@@ -439,7 +439,7 @@ Author: HasTech
     transition: 0.3s;
   }
   .widget_categories .search_form button:hover {
-    color: #4BCAFF;
+    color: #00B3AC;
   }
   .widget_list.widget_brands ul li::before, .widget_list.widget_color ul li::before {
       content: "\f096";
@@ -452,12 +452,12 @@ Author: HasTech
   }
   
   .widget_list.widget_brands ul li.active a, .widget_list.widget_color ul li.active a,.widget_list.widget_brands ul li.active::before, .widget_list.widget_color ul li.active::before {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .tag_widget ul li.active a {
-      background: #4BCAFF;
+      background: #00B3AC;
       color: #fff;
-      border-color: #4BCAFF;
+      border-color: #00B3AC;
   }
   .Featured_item .product_ratings i {
       font-size: 11px!important;
@@ -499,7 +499,7 @@ Author: HasTech
       border-bottom: 1px solid #ebebeb;
   }
   .pagination ul li:hover {
-      background: #4BCAFF;
+      background: #00B3AC;
       color: #fff;
   }
   .pagination {
@@ -529,10 +529,10 @@ Author: HasTech
       color: #242424;
   }
   ul.archive-sidebar li a:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .blog_sidebar .widget_categories ul li a.active {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .entry_content {
       margin-bottom: 0;
@@ -544,7 +544,7 @@ Author: HasTech
       color: #5a5a5a;
   }
   .article-next-previous span a:hover {
-     color: #4BCAFF;
+     color: #00B3AC;
   }
   .article-next-previous{
       border-bottom: 1px solid #ebebeb;
@@ -578,7 +578,7 @@ Author: HasTech
   .featured-product-price span span {
       font-size: 18px;
       font-weight: 500;
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .cart_submit .cart_button_666666 {
       background: #212121;
@@ -598,10 +598,10 @@ Author: HasTech
   }
   .cart_submit .cart_button_666666:hover {
       color: #ffffff;
-      background: #4BCAFF;
+      background: #00B3AC;
   }
   .checkout_btn input {
-      background: #4BCAFF;
+      background: #00B3AC;
       color: #ffffff;
       font-size: 16px;
       padding: 3px 14px;
@@ -633,7 +633,7 @@ Author: HasTech
       color: #242424;
   }
   .empty-cart-page p a:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .table_desc .cart_page table tbody tr td.product_quantity input {
       text-align: center;
@@ -682,7 +682,7 @@ Author: HasTech
       font-size: 18px;
   }
   .search-item-content h4 a:hover,.search-blog-item .search-blog-title a:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .search-price > span.compare-price {
       color: #545454;
@@ -694,7 +694,7 @@ Author: HasTech
   .search-price > span {
       font-size: 16px;
       font-weight: 500;
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   #recently-viewed-products h2 {
       color: #242424;
@@ -739,14 +739,14 @@ Author: HasTech
   .single-product-item.product-item .product-info h3.pro-price span.new-price {
       font-size: 14px;
       font-weight: 500;
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .single-product-item.product-item .product-info h3.pro-price {
       margin-bottom: 0;
   }
   
   .product_d_info .new-review-form a,.product_d_info .new-review-form a:hover,.product_d_info a:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .product_d_info .new-review-form a.spr-icon.spr-icon-star-empty {
       opacity: 1;
@@ -762,15 +762,15 @@ Author: HasTech
   .product_d_info input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover
   {
       color: #fff;
-      background-color: #4BCAFF;
-      border-color: #4BCAFF;
+      background-color: #00B3AC;
+      border-color: #00B3AC;
   }
   a.product-single__thumbnail {
       border: 1px solid #ddd;
       display: inline-block;
   }
   a.product-single__thumbnail.active {
-      border: 1px solid #4BCAFF;
+      border: 1px solid #00B3AC;
       display: inline-block;
   }
   
@@ -808,7 +808,7 @@ Author: HasTech
   
   .shopify-payment-button .shopify-payment-button__button:hover, .shopify-payment-button .shopify-payment-button__more-options:hover {
       color: #ffffff!important;
-      background-color: #4BCAFF!important;
+      background-color: #00B3AC!important;
   }
   
   .shopify-payment-button .shopify-payment-button__more-options {
@@ -864,7 +864,7 @@ Author: HasTech
   }
   
   .product_details .product-variant-option .Size label:hover, .product_details .product-variant-option .Material label:hover {
-      background-color: #4BCAFF;
+      background-color: #00B3AC;
       color: #fff;
   }
   .swatch .header,.product-variant-option .selector-wrapper label {
@@ -895,7 +895,7 @@ Author: HasTech
       color: #242424;
   }
   .wishlist-item .post-title a:hover,.wishlist-item .product-tile--tile-actions a:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   
   .wishlist-item .price--compare.strike-through{
@@ -908,10 +908,10 @@ Author: HasTech
   .wishlist-item .text--price.pro-price .price--sale,.wishlist-item .text--price.pro-price{
       font-size: 16px;
       font-weight: 500;
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .list_button button.change-view:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .price_box > span.old_price {
       margin-right: 8px;
@@ -957,7 +957,7 @@ Author: HasTech
   }
   .product_d_action ul li a:hover {
       color: #fff;
-      background-color: #4BCAFF;
+      background-color: #00B3AC;
   }
   .product_d_action ul li {
       display: inline-block;
@@ -969,7 +969,7 @@ Author: HasTech
       margin-left: 3px;
   }
   .product_meta span a:hover  {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .share-icons.priduct_social span,.custom-payment-options p {
       color: #242424;
@@ -988,7 +988,7 @@ Author: HasTech
       margin-top: 0;
   }
   .product-coundown-2 .single-countdown {
-      background: #4BCAFF;
+      background: #00B3AC;
       color: #fff;
       margin: 0 8px 0px 0;
       width: 60px;
@@ -1019,20 +1019,20 @@ Author: HasTech
       z-index: 1;
   }
   .widget_list.widget_categories > ul > li.has-sub.active > a,.widget_list.widget_categories > ul > li.has-sub:hover > a,.widget_list.widget_categories > ul > li.has-sub ul li a:hover,.blog_sidebar .widget_categories ul li.active > a,.blog_sidebar .widget_categories ul li:hover > a {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .widget_list.widget_categories > ul > li.has-sub ul li a {
       color: #242424;
   }
   .widget_list.widget_categories > ul > li.active > a {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .product_thumb > span,.product-details-tab > span {
       position: absolute;
       left: 10px;
       top: 20px;
       color: #fff;
-      background: #4BCAFF;
+      background: #00B3AC;
       z-index: 2;
       font-size: 13px;
       height: 22px;
@@ -1064,7 +1064,7 @@ Author: HasTech
       height: 22px;
   }
   .dropdown_setting ul li a:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .shop_toolbar.t_bottom.collection_list {
       margin-top: 30px;
@@ -1163,7 +1163,7 @@ Author: HasTech
       background-color: #2e2e2e;
   }
   .wishlist_black_section .login-wishlist a:hover {
-      background-color: #4BCAFF;
+      background-color: #00B3AC;
   }
   .simple_product_content .product_name h3 a {
       color: #5a5a5a;
@@ -1503,7 +1503,7 @@ Author: HasTech
       color: #242424;
   }
   .widget_list.widget_brands ul li label:hover {
-      color: #4BCAFF;
+      color: #00B3AC;
   }
   .manufacturer-name {
     overflow: hidden;
@@ -1524,7 +1524,7 @@ Author: HasTech
     margin: 0 3px;
   }
   .manufacturer-name .product-nav ul li a {
-    background: #4BCAFF;
+    background: #00B3AC;
     color: #fff;
     height: 20px;
     width: 50px;
@@ -1609,7 +1609,7 @@ Author: HasTech
   }
   .sidebar_widget_list.selected-filter-value .blog-tags li a:hover {
     background: transparent;
-    color: #4BCAFF;
+    color: #00B3AC;
   }
   .sidebar_widget_list.selected-filter-value .blog-tags li a {
     border: 1px dashed #efefef;
@@ -1635,7 +1635,7 @@ Author: HasTech
     text-decoration: underline;
   }
   a.filter-reset-selected-value:hover {
-    color: #4BCAFF;
+    color: #00B3AC;
   }
   .widget_list  .filter-value-counter {
     border-bottom: none;

@@ -1,4 +1,9 @@
 import React from 'react'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import EmailIcon from '@mui/icons-material/Email';
+import { Link } from 'react-router-dom';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export const Footer = () => {
     return (
@@ -8,62 +13,31 @@ export const Footer = () => {
                     <div className="container">
                         <div className="footer_top ">
                             <div className="row">
-
-
                                 <div className="col-lg-4 col-md-6">
                                     <div className="widgets_container contact_us">
-
-                                        <h3>About Monsta</h3>
-
+                                        <h3>About Cupify</h3>
                                         <div className="footer_contact">
-
                                             <p> Address: Noida sector 1, Noida, UP, INDIA <br/>Phone: 123 456 789 - 000
-                                            <br/> Email: support@cupify.com </p>
-
-
+                                            <br/> Email: supportcupify@gmail.com </p>
                                                 <ul>
-
-                                                    <li><a href="#"><i className="fa fa-facebook-f"></i></a></li>
-
-
-                                                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-
-
-                                                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-
-
-                                                    <li><a href="#"><i className="fa fa-youtube"></i></a></li>
-
-
-                                                    <li><a href="#"><i className="fa fa-vimeo"></i></a></li>
-
-
-
-
+                                                    <li><Link to="https://www.facebook.com/"><FacebookIcon/></Link></li>
+                                                    <li><Link to="https://accounts.google.com"><EmailIcon/></Link></li>
+                                                    <li><Link to="https://www.instagram.com/"><InstagramIcon/></Link></li>
+                                                    <li><Link to="https://www.linkedin.com/login"><LinkedInIcon/></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
 
-
-
                                     <div className="col-lg-2 col-md-6">
                                         <div className="widgets_container widget_menu">
-
                                             <h3>Information</h3>
-
                                             <div className="footer_menu">
                                                 <ul>
-
-
-                                                    <li><a href="/pages/about"> About Us</a></li>
-
-                                                    <li><a href="/blogs/news"> blog</a></li>
-
-                                                    <li><a href="/pages/contact"> Contact</a></li>
-
-                                                    <li><a href="/pages/shipping-policy"> Services</a></li>
-
+                                                    <li><Link to="">Home</Link></li>
+                                                    <li><Link to="/About-Us">About Us</Link></li>
+                                                    <li><Link to="/Contact-Us">Contact Us</Link></li>
+                                                    <li><Link to="">Services</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -73,123 +47,82 @@ export const Footer = () => {
 
                                     <div className="col-lg-2 col-md-6">
                                         <div className="widgets_container widget_menu">
-
                                             <h3>My Account</h3>
-
                                             <div className="footer_menu">
                                                 <ul>
-
-
-                                                    <li><a href="/account"> My Account</a></li>
-
-                                                    <li><a href="/pages/contact"> Contact</a></li>
-
-                                                    <li><a href="/pages/wishlist"> Wishlist</a></li>
-
-                                                    <li><a href="/checkout"> Checkout</a></li>
-
-                                                    <li><a href="/pages/faq"> Frequently Questions</a></li>
-
+                                                    <li><Link to=""> My Account</Link></li>
+                                                    <li><Link to=""> Order History</Link></li>
+                                                    <li><Link to="/item-checkout"> Checkout</Link></li>
+                                                    <li><Link to=""> Frequently Questions</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
-
 
 
                                     <div className="col-lg-4 col-md-6">
                                         <div className="widgets_container product_widget">
-
-                                            <h3>Top Rated Products</h3>
-
+                                            <h3>Top Most Products</h3>
                                             <div className="simple_product">
-
-
-
                                                 <div className="simple_product_items">
                                                     <div className="simple_product_thumb">
-                                                        <a href="/products/product-dummy-title-4">
-                                                            <img src="//monsta-demo.myshopify.com/cdn/shop/products/6_423c6495-af94-4945-88a6-76236316f77f_350x350_crop_center.jpg?v=1573029025" alt="Product dummy title"/>
-                                                        </a>
+                                                        <Link to="">
+                                                            <img src={require('../assets/images/footer/footer-bottles.jpg')} alt="Top Rated Bottles"/>
+                                                        </Link>
                                                     </div>
                                                     <div className="simple_product_content">
-
-
                                                         <div className="product_name">
-                                                            <h3><a href="/products/product-dummy-title-4">Product dummy title</a></h3>
+                                                            <h3 className='font-weight-bold'><Link to="">Stylish Bottles</Link></h3>
                                                         </div>
-
-                                                        <div className="product_price"><span className="current_price"><span className="money" data-currency-usd="$79.00">$79.00</span></span>
+                                                        <div className="product_price"><span className="old_price"><span className="money">₹ 300.00</span></span><span className="current_price"><span className="money">₹ 250.00 </span></span>
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <div className="simple_product_items">
                                                     <div className="simple_product_thumb">
-                                                        <a href="/products/dummy-text-for-title-3">
-                                                            <img src="//monsta-demo.myshopify.com/cdn/shop/products/1_ce16ef2c-0841-495e-b8eb-3c6dc9713fee_350x350_crop_center.jpg?v=1573028953" alt="Dummy text for title"/>
-                                                        </a>
+                                                        <Link to="">
+                                                        <img src={require('../assets/images/footer/footer-cups.png')} alt="Top Rated Cups"/>
+                                                        </Link>
                                                     </div>
                                                     <div className="simple_product_content">
-
-
                                                         <div className="product_name">
-                                                            <h3><a href="/products/dummy-text-for-title-3">Dummy text for title</a></h3>
+                                                            <h3 className='font-weight-bold'><Link to="">Stylish Mugs</Link></h3>
                                                         </div>
-
-                                                        <div className="product_price"><span className="old_price"><span className="money" data-currency-usd="$60.00">$60.00</span></span><span className="current_price"><span className="money" data-currency-usd="$39.00">$39.00</span></span>
+                                                        <div className="product_price"><span className="old_price"><span className="money">₹ 250.00</span></span><span className="current_price"><span className="money">₹ 200.00</span></span>
                                                         </div>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
-
-
-
-
                                 </div>
                             </div>
-
-
 
                             <div className="footer_middel">
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="footer_middel_menu">
                                             <ul>
-
-                                                <li><a href="/">  Online Store</a></li>
-
-                                                <li><a href="/pages/shipping-policy"> Privacy Policy</a></li>
-
-                                                <li><a href="/pages/size-chart"> Terms Of Use</a></li>
-
-                                                <li><a href="/pages/contact"> Contacts</a></li>
-
+                                                <li><Link to=""> Online Store</Link></li>
+                                                <li><Link to=""> Privacy Policy</Link></li>
+                                                <li><Link to=""> Terms Of Use</Link></li>
+                                                <li><Link to="/Contact-Us"> Contact us</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-
-
                             <div className="footer_bottom">
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="copyright_area">
-
-                                            <p>Copyright © 2021 <a href="https://hasthemes.com/" title="https://hasthemes.com/">Cupify</a> | Built for <a href="#" title="#">Product Market </a> by <a href="https://hasthemes.com/" title="https://hasthemes.com/">Cupify Team</a>.</p>
-                                            <img src="//monsta-demo.myshopify.com/cdn/shop/files/papyel2_large.png?v=1613778882" alt=""/>
+                                            <p>Copyright © 2025 <Link to="https://cupify.com" title="https://cupify.com">Cupify</Link> | Built for Product Market  by <Link to="https://cupify.com">Cupify Team</Link></p>
                                             </div>
                                     </div>
                                 </div>
                             </div>
-
-
-
                         </div>
                 </footer>
             </div>

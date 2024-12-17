@@ -7,50 +7,8 @@
 
 
 /*-----------------------------------------------------------------------------------
-
-    
-    CSS INDEX
-    =========================================
-    01. header css here
-    02. slider area css here
-    03. product section css here
-    04. banner section css here 
-    05. blog area css here
-    06. newsletter area css here
-    07. footer area css here
-    08. shop page css here
-    09. error page css heer 
-    10. about page css here
-    11. blog page css here 
-    12. blog details css here
-    13. cart page css here
-    14. checkout page css here
-    15. contact page css here
-    16. faq page css here
-    17. login page css here
-    18. my account css here
-    19. portfolio page css here
-    20. services page css here
-    21. shipping css here
-    22. wishlist css here
-    23. newsletter popup css here
-    24. modal css here
-    
-    
-
 -----------------------------------------------------------------------------------*/
-/* @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i|Prata&subset=cyrillic,cyrillic-ext,vietnamese"); */
 
-/* transition */
-/* flex */
-/* transform */
-/* opacity */
-/*----------------------------------------*/
-/*  01. Theme default CSS
-/*----------------------------------------*/
-/*-- Google Font --*/
-/*-- Common Style --*/
-*,
 *::after,
 *::before {
   box-sizing: border-box;
@@ -466,7 +424,7 @@ textarea:-ms-input-placeholder {
 
 /* 02. Element */
 .button {
-  background: #4BCAFF;
+  background: #00B3AC;
   box-shadow: none;
   color: #ffffff;
   display: inline-block;
@@ -493,7 +451,7 @@ textarea:-ms-input-placeholder {
 }
 
 .bg-blue {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .top-strip {
@@ -590,7 +548,7 @@ textarea:-ms-input-placeholder {
 }
 
 .welcome_text p span {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -690,7 +648,7 @@ textarea:-ms-input-placeholder {
 }
 
 .top_right>ul>li>a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .top_right>ul>li>a:not([href]):not([tabindex]) {
@@ -698,7 +656,7 @@ textarea:-ms-input-placeholder {
 }
 
 .top_right>ul>li:hover a:not([href]):not([tabindex]) {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .dropdown_currency,
@@ -767,7 +725,7 @@ textarea:-ms-input-placeholder {
 }
 
 .dropdown_currency li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .dropdown_language li,
@@ -797,7 +755,7 @@ textarea:-ms-input-placeholder {
 .dropdown_language li a:hover,
 .header_black .dropdown_currency li a:hover,
 .header_black .dropdown_links li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .dropdown_links li {
@@ -819,7 +777,7 @@ textarea:-ms-input-placeholder {
 }
 
 .dropdown_links li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .top_right ul li a img {
@@ -931,7 +889,7 @@ textarea:-ms-input-placeholder {
 }
 
 .search_btn>a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .dropdown_search {
@@ -1021,7 +979,7 @@ textarea:-ms-input-placeholder {
   height: 20px;
   line-height: 20px;
   text-align: center;
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #fff;
   border-radius: 50%;
   top: 12px;
@@ -1041,7 +999,7 @@ textarea:-ms-input-placeholder {
 }
 
 .cart_link>a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .cart_link>a i.ion-android-cart {
@@ -1121,7 +1079,7 @@ textarea:-ms-input-placeholder {
 }
 
 .cart_info a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .cart_info span {
@@ -1129,7 +1087,7 @@ textarea:-ms-input-placeholder {
 }
 
 .cart_info span.price_cart {
-  color: #4BCAFF;
+  color: #00B3AC;
   font-weight: 500;
 }
 
@@ -1144,7 +1102,7 @@ textarea:-ms-input-placeholder {
 }
 
 .cart_remove a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .cart_item {
@@ -1180,7 +1138,7 @@ textarea:-ms-input-placeholder {
 }
 
 .cart_button a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .cart_button.view_cart {
@@ -1274,11 +1232,11 @@ textarea:-ms-input-placeholder {
 }
 
 .main_menu nav>ul>li:hover>a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .main_menu nav>ul>li.active>a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .main_menu nav>ul>li:first-child a {
@@ -1320,7 +1278,7 @@ textarea:-ms-input-placeholder {
 
 .main_menu nav ul li ul li.active a,
 .main_menu nav ul li ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .main_menu nav>ul>li>ul>li>a {
@@ -1375,7 +1333,7 @@ textarea:-ms-input-placeholder {
 }
 
 .main_menu nav>ul>li>ul.mega_menu>li>a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .main_menu nav>ul>li>ul.mega_menu li ul li a {
@@ -1389,7 +1347,7 @@ textarea:-ms-input-placeholder {
 }
 
 .main_menu nav>ul>li>ul.mega_menu li ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .main_menu nav ul li ul.sub_menu.pages {
@@ -1483,7 +1441,7 @@ textarea:-ms-input-placeholder {
 }
 
 .social_icone ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -1516,7 +1474,7 @@ textarea:-ms-input-placeholder {
 }
 
 .box_setting>a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .dropdown_setting {
@@ -1709,7 +1667,7 @@ textarea:-ms-input-placeholder {
 }
 
 .header_two .search_btn form button:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1874,7 +1832,7 @@ textarea:-ms-input-placeholder {
 }
 
 .sidebar_form form button:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .sidebar_footer {
@@ -1887,7 +1845,7 @@ textarea:-ms-input-placeholder {
 }
 
 .sidebar_footer p a {
-  color: #4BCAFF;
+  color: #00B3AC;
   text-decoration: underline;
 }
 
@@ -2159,7 +2117,7 @@ textarea:-ms-input-placeholder {
 }
 
 .header_three .search_btn form button:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3033,7 +2991,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .single_slider .row {
-    height: 450px;
+    height: 330px;
   }
 }
 
@@ -3086,7 +3044,7 @@ textarea:-ms-input-placeholder {
 .slider_area.owl-carousel .owl-dots .owl-dot.active::before {
   position: absolute;
   content: "";
-  background: #4BCAFF;
+  background: #00B3AC;
   width: 13px;
   height: 13px;
   left: -3px;
@@ -3105,7 +3063,7 @@ textarea:-ms-input-placeholder {
   font-size: 18px;
   line-height: 18px;
   font-weight: 400;
-  color: #242424;
+  color: #fff;
   margin-bottom: 11px;
   text-transform: capitalize;
 }
@@ -3119,10 +3077,10 @@ textarea:-ms-input-placeholder {
 }
 
 .slider_content h1 {
-  font-size: 60px;
+  font-size: 53px;
   line-height: 60px;
   font-weight: 700;
-  color: #212121;
+  color: #fff;
   text-transform: capitalize;
   margin-bottom: 30px;
 }
@@ -3181,7 +3139,7 @@ textarea:-ms-input-placeholder {
 }
 
 .slider_content p.slider_price span {
-  color: #4BCAFF;
+  color: #00B3AC;
   font-size: 30px;
   font-weight: 500;
   margin-left: 8px;
@@ -3634,6 +3592,7 @@ textarea:-ms-input-placeholder {
 .banner_thumb {
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .banner_thumb::before {
@@ -3666,7 +3625,7 @@ textarea:-ms-input-placeholder {
 
 .banner_content {
   position: absolute;
-  top: 25px;
+  bottom: 25px;
   left: 25px;
 }
 
@@ -3697,7 +3656,7 @@ textarea:-ms-input-placeholder {
 }
 
 .messages_info p a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .banner_fullwidth {
@@ -3748,7 +3707,7 @@ textarea:-ms-input-placeholder {
 .banner_text P {
   font-size: 16px;
   margin: 0;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3797,8 +3756,8 @@ textarea:-ms-input-placeholder {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #4BCAFF;
-  border: 2px solid #4BCAFF;
+  color: #00B3AC;
+  border: 2px solid #00B3AC;
   padding: 0 45px;
   border-radius: 3px;
   margin-top: 70px;
@@ -3815,7 +3774,7 @@ textarea:-ms-input-placeholder {
 }
 
 .banner_text a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #fff;
 }
 
@@ -3944,7 +3903,7 @@ textarea:-ms-input-placeholder {
 }
 
 .banner_section_four .banner_content p {
-  color: #4BCAFF;
+  color: #00B3AC;
   font-size: 16px;
   margin-bottom: 12px;
 }
@@ -3956,7 +3915,7 @@ textarea:-ms-input-placeholder {
 }
 
 .banner_section_four .banner_content a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .messages_four {
@@ -4461,12 +4420,12 @@ textarea:-ms-input-placeholder {
 }
 
 .product_tab_button ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_tab_button ul li a.active {
   position: relative;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_tab_button ul li a.active::before {
@@ -4474,7 +4433,7 @@ textarea:-ms-input-placeholder {
   content: "";
   width: 104%;
   height: 109%;
-  border: 2px solid #4BCAFF;
+  border: 2px solid #00B3AC;
   left: -2px;
   top: -2px;
   border-radius: 2px;
@@ -4547,7 +4506,7 @@ textarea:-ms-input-placeholder {
 }
 
 .quick_button a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .product_content {
@@ -4582,13 +4541,13 @@ textarea:-ms-input-placeholder {
 }
 
 .product_content h3 a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .price_box>span {
   font-size: 16px;
   font-weight: 500;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .price_box>span.old_price {
@@ -4639,7 +4598,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_ratings ul li a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .action_links ul li {
@@ -4666,7 +4625,7 @@ textarea:-ms-input-placeholder {
 }
 
 .action_links ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -4680,7 +4639,7 @@ textarea:-ms-input-placeholder {
 }
 
 .tag_cate a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_desc {
@@ -4734,7 +4693,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_container.bottom .custom-row>button:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_container.bottom .custom-row>button.next_arrow {
@@ -4751,7 +4710,7 @@ textarea:-ms-input-placeholder {
   height: 2px;
   background: #ebebeb;
   position: absolute;
-  left: 0;
+  left: 250px;
   right: 15px;
   top: 50%;
 }
@@ -5103,13 +5062,13 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_content h3 a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_content .read_more a {
   font-size: 14px;
   text-transform: capitalize;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_content .read_more a:hover {
@@ -5128,7 +5087,7 @@ textarea:-ms-input-placeholder {
 }
 
 .author_name p span.themes {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .author_name p span.post_by {
@@ -5157,7 +5116,7 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_wrapper .owl-nav div:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_wrapper .owl-nav div.owl-next {
@@ -5342,7 +5301,7 @@ textarea:-ms-input-placeholder {
   font-weight: 500;
   text-align: center;
   padding: 0 60px;
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #fff;
   height: 100%;
   border: 0;
@@ -5487,8 +5446,8 @@ textarea:-ms-input-placeholder {
 }
 
 .shipping_two .single-shipping:hover .shipping_icone::before {
-  color: #4BCAFF;
-  border-color: #4BCAFF;
+  color: #00B3AC;
+  border-color: #00B3AC;
 }
 
 .shipping_content h3 {
@@ -5649,7 +5608,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_menu ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .footer_contact p {
@@ -5659,11 +5618,12 @@ textarea:-ms-input-placeholder {
 
 .footer_contact ul {
   margin-top: 10px;
+  margin-left: 0px;
 }
 
 .footer_contact ul li {
   display: inline-block;
-  margin-right: 7px;
+  margin-right: 10px;
 }
 
 .footer_contact ul li:last-child {
@@ -5673,19 +5633,21 @@ textarea:-ms-input-placeholder {
 .footer_contact ul li a {
   color: #b2b2b2;
   font-size: 18px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 37px;
+  height: 33px;
+  line-height: 43px;
   border: 1px solid #e1e1e1;
   background: #fff;
   text-align: center;
   border-radius: 50%;
   display: block;
+  color: #00B3AC;
+  border-color: #00B3AC;
 }
 
 .footer_contact ul li a:hover {
-  color: #4BCAFF;
-  border-color: #4BCAFF;
+  color: #00B3AC;
+  border-color: #00B3AC;
 }
 
 .simple_product_content .tag_cate {
@@ -5703,7 +5665,7 @@ textarea:-ms-input-placeholder {
 }
 
 .simple_product_content .product_name h3 a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .simple_product_content .product_price span {
@@ -5718,7 +5680,7 @@ textarea:-ms-input-placeholder {
 }
 
 .simple_product_content .product_price span.current_price {
-  color: #4BCAFF;
+  color: #00B3AC;
   font-weight: 500;
 }
 
@@ -5737,6 +5699,9 @@ textarea:-ms-input-placeholder {
 
 .simple_product_thumb {
   width: 22%;
+}
+.simple_product_thumb img{
+  border-radius: 15px;
 }
 
 .simple_product_content {
@@ -5779,7 +5744,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer_middel_menu ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5810,7 +5775,7 @@ textarea:-ms-input-placeholder {
 }
 
 .copyright_area p a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .copyright_area p a:hover {
@@ -6079,8 +6044,8 @@ textarea:-ms-input-placeholder {
 }
 
 .collection_content a:hover {
-  color: #4BCAFF;
-  border-color: #4BCAFF;
+  color: #00B3AC;
+  border-color: #00B3AC;
 }
 
 @media only screen and (max-width: 767px) {
@@ -6224,8 +6189,8 @@ textarea:-ms-input-placeholder {
 }
 
 .categories_content a:hover {
-  color: #4BCAFF;
-  border-color: #4BCAFF;
+  color: #00B3AC;
+  border-color: #00B3AC;
 }
 
 #fp-nav {
@@ -6306,7 +6271,7 @@ textarea:-ms-input-placeholder {
   text-transform: capitalize;
   font-size: 14px;
   margin-right: 5px;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .breadcrumb_content ul li:last-child {
@@ -6318,7 +6283,7 @@ textarea:-ms-input-placeholder {
 }
 
 .breadcrumb_content ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .widget_list {
@@ -6358,7 +6323,7 @@ textarea:-ms-input-placeholder {
 }
 
 .widget_list.widget_categories>ul>li>a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .widget_list.widget_brands ul li,
@@ -6392,11 +6357,11 @@ textarea:-ms-input-placeholder {
 
 .widget_list.widget_brands ul li a:hover,
 .widget_list.widget_color ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .ui-slider-horizontal .ui-slider-range {
-  background: #4BCAFF;
+  background: #00B3AC;
   height: 5px;
 }
 
@@ -6412,7 +6377,7 @@ textarea:-ms-input-placeholder {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-  background: #4BCAFF;
+  background: #00B3AC;
   border: 0;
   border-radius: 0;
   width: 15px;
@@ -6453,7 +6418,7 @@ textarea:-ms-input-placeholder {
 }
 
 .widget_list.widget_filter form button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .tag_widget ul li {
@@ -6481,9 +6446,9 @@ textarea:-ms-input-placeholder {
 }
 
 .tag_widget ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #fff;
-  border-color: #4BCAFF;
+  border-color: #00B3AC;
 }
 
 .widget_list.compare_p .compare_img {
@@ -6510,7 +6475,7 @@ textarea:-ms-input-placeholder {
 }
 
 .widget_list.compare_p .compare_info h3 a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .widget_list.compare_p .compare_item {
@@ -6540,7 +6505,7 @@ textarea:-ms-input-placeholder {
 }
 
 .widget_list.compare_p .compare_btn a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -6572,7 +6537,7 @@ textarea:-ms-input-placeholder {
 }
 
 .widget_list.Featured_p .Featured_info h3 a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .widget_list.Featured_p .Featured_item {
@@ -6677,11 +6642,11 @@ textarea:-ms-input-placeholder {
 }
 
 .list_button ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .list_button ul li a.active {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_ratting ul li {
@@ -6689,7 +6654,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_ratting ul li a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_list_item:hover {
@@ -6791,12 +6756,12 @@ textarea:-ms-input-placeholder {
 }
 
 .pagination ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
 .pagination ul li.current {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -6930,7 +6895,7 @@ textarea:-ms-input-placeholder {
 
 .product_d_right .product_price span.current_price {
   font-size: 18px;
-  color: #4BCAFF;
+  color: #00B3AC;
   font-weight: 700;
 }
 
@@ -7003,9 +6968,9 @@ textarea:-ms-input-placeholder {
 }
 
 .product_d_right .priduct_social ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
-  border-color: #4BCAFF;
+  border-color: #00B3AC;
 }
 
 .product_nav {
@@ -7036,7 +7001,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_nav ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -7093,7 +7058,7 @@ textarea:-ms-input-placeholder {
   border: 0;
   font-size: 16px;
   margin-left: 20px;
-  background: #4BCAFF;
+  background: #00B3AC;
   height: 42px;
   line-height: 42px;
   text-transform: capitalize;
@@ -7168,7 +7133,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_d_action ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_meta {
@@ -7214,11 +7179,11 @@ textarea:-ms-input-placeholder {
 }
 
 .product_info_button ul li a.active {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_info_button ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_info_button ul li:last-child a {
@@ -7241,7 +7206,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_review_form button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -7353,7 +7318,7 @@ textarea:-ms-input-placeholder {
 }
 
 .star_rating ul li a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .product_d_info {
@@ -7430,7 +7395,7 @@ textarea:-ms-input-placeholder {
 }
 
 .s-tab-zoom.owl-carousel .owl-nav div:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -7587,7 +7552,7 @@ textarea:-ms-input-placeholder {
 }
 
 .grouped_form table tbody tr td.grouped-product-list.label a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .grouped_form table tbody tr td.grouped-product-list.price {
@@ -7674,7 +7639,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_d_meta span a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 /*product sidebar css here*/
@@ -7887,7 +7852,7 @@ textarea:-ms-input-placeholder {
 }
 
 .table_desc .cart_page table thead tr th {
-  border-bottom: 3px solid #4BCAFF;
+  border-bottom: 3px solid #00B3AC;
   border-right: 1px solid #ebebeb;
   color: #242424;
   font-size: 16px;
@@ -7911,11 +7876,11 @@ textarea:-ms-input-placeholder {
 
 .table_desc .cart_page table tbody tr td.product_remove a {
   font-size: 20px;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .table_desc .cart_page table tbody tr td.product_remove a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .table_desc .cart_page table tbody tr td.product_thumb {
@@ -7934,7 +7899,7 @@ textarea:-ms-input-placeholder {
 }
 
 .table_desc .cart_page table tbody tr td.product_name a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .table_desc .cart_page table tbody tr td.product-price {
@@ -7995,7 +7960,7 @@ textarea:-ms-input-placeholder {
 }
 
 .cart_submit button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .coupon_inner {
@@ -8026,7 +7991,7 @@ textarea:-ms-input-placeholder {
 }
 
 .coupon_inner button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .coupon_inner input {
@@ -8055,7 +8020,7 @@ textarea:-ms-input-placeholder {
 .coupon_inner a {
   display: block;
   text-align: right;
-  color: #4BCAFF;
+  color: #00B3AC;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -8127,7 +8092,7 @@ textarea:-ms-input-placeholder {
 }
 
 .checkout_btn a {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
   font-size: 16px;
   padding: 3px 14px;
@@ -8193,12 +8158,12 @@ textarea:-ms-input-placeholder {
   color: #212121;
   background-color: #f7f6f7;
   padding: 15px 10px;
-  border-top: 3px solid #4BCAFF;
+  border-top: 3px solid #00B3AC;
   margin-bottom: 0;
 }
 
 .user-actions h3 a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .checkout_info {
@@ -8212,7 +8177,7 @@ textarea:-ms-input-placeholder {
 }
 
 .checkout_info a {
-  color: #4BCAFF;
+  color: #00B3AC;
   margin-top: 15px;
   display: block;
 }
@@ -8261,7 +8226,7 @@ textarea:-ms-input-placeholder {
 }
 
 .form_group button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .form_group input[type="checkbox"] {
@@ -8288,7 +8253,7 @@ textarea:-ms-input-placeholder {
 }
 
 .form_group.group_3 label:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 #checkout_coupon input {
@@ -8325,7 +8290,7 @@ textarea:-ms-input-placeholder {
 }
 
 #checkout_coupon button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .mb-20 {
@@ -8372,7 +8337,7 @@ textarea:-ms-input-placeholder {
 }
 
 .checkout_form label span {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .checkout_form label.righ_0 {
@@ -8416,7 +8381,7 @@ textarea:-ms-input-placeholder {
   padding: 5px 10px;
   text-transform: capitalize;
   color: #ffffff;
-  background: #4BCAFF;
+  background: #00B3AC;
   font-weight: 600;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -8529,7 +8494,7 @@ textarea:-ms-input-placeholder {
 }
 
 .table_desc.wishlist table tbody tr td.product_total a {
-  background: #4BCAFF;
+  background: #00B3AC;
   font-size: 12px;
   font-weight: 700;
   height: 38px;
@@ -8568,7 +8533,7 @@ textarea:-ms-input-placeholder {
 }
 
 .wishlist_share ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .wishlist_area {
@@ -8630,7 +8595,7 @@ textarea:-ms-input-placeholder {
 }
 
 .contact_message ul li a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .contact_message ul li a:hover {
@@ -8680,7 +8645,7 @@ textarea:-ms-input-placeholder {
 }
 
 .contact_message button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -8748,7 +8713,7 @@ textarea:-ms-input-placeholder {
 }
 
 .account_form label:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .account_form input {
@@ -8761,7 +8726,7 @@ textarea:-ms-input-placeholder {
 }
 
 .account_form button {
-  background: #4BCAFF;
+  background: #00B3AC;
   border: 0;
   color: #ffffff;
   display: inline-block;
@@ -8794,7 +8759,7 @@ textarea:-ms-input-placeholder {
 
 .login_submit a {
   font-size: 13px;
-  color: #4BCAFF;
+  color: #00B3AC;
   float: left;
   line-height: 39px;
 }
@@ -8894,10 +8859,10 @@ textarea:-ms-input-placeholder {
 }
 
 .card-header.card_accor button.btn-link {
-  border: 1px solid #4BCAFF;
+  border: 1px solid #00B3AC;
   width: 100%;
   text-align: left;
-  color: #4BCAFF;
+  color: #00B3AC;
   font-size: 14px;
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -8912,9 +8877,9 @@ textarea:-ms-input-placeholder {
 }
 
 .accordion_area .collapse.show {
-  border-left: 1px solid #4BCAFF;
-  border-bottom: 1px solid #4BCAFF;
-  border-right: 1px solid #4BCAFF;
+  border-left: 1px solid #00B3AC;
+  border-bottom: 1px solid #00B3AC;
+  border-right: 1px solid #00B3AC;
 }
 
 .card-header.card_accor button.btn-link i.fa-plus {
@@ -8966,12 +8931,12 @@ textarea:-ms-input-placeholder {
 }
 
 .dashboard_tab_button ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
 .dashboard_tab_button ul li a.active {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .main_content_area {
@@ -9002,12 +8967,12 @@ textarea:-ms-input-placeholder {
 }
 
 .dashboard_content a {
-  color: #4BCAFF;
+  color: #00B3AC;
   font-weight: 500;
 }
 
 .dashboard_content p a {
-  color: #4BCAFF;
+  color: #00B3AC;
   font-weight: 500;
 }
 
@@ -9032,7 +8997,7 @@ textarea:-ms-input-placeholder {
 }
 
 .table-responsive table tbody tr td:last-child a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .table-responsive .table {
@@ -9193,7 +9158,7 @@ textarea:-ms-input-placeholder {
 
 .about_content span {
   font-size: 14px;
-  color: #4BCAFF;
+  color: #00B3AC;
   font-style: italic;
 }
 
@@ -9372,7 +9337,7 @@ textarea:-ms-input-placeholder {
 }
 
 .testimonial_active.owl-carousel .owl-dots .owl-dot.active {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .single_testimonial {
@@ -9507,7 +9472,7 @@ textarea:-ms-input-placeholder {
 .services_icone i {
   font-size: 35px;
   line-height: 46px;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .services_desc h3 {
@@ -9615,8 +9580,8 @@ textarea:-ms-input-placeholder {
 }
 
 .unlimited_services_content a:hover {
-  background: #4BCAFF;
-  border-color: #4BCAFF;
+  background: #00B3AC;
+  border-color: #00B3AC;
   color: #fff;
 }
 
@@ -9642,7 +9607,7 @@ textarea:-ms-input-placeholder {
 
 .priceing_title {
   padding: 20px;
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .priceing_title h1 {
@@ -9697,8 +9662,8 @@ textarea:-ms-input-placeholder {
 
 .priceing_list a.list_button,
 .priceing_list a:hover {
-  background: #4BCAFF;
-  border-color: #4BCAFF;
+  background: #00B3AC;
+  border-color: #00B3AC;
   color: #fff;
 }
 
@@ -9765,9 +9730,9 @@ textarea:-ms-input-placeholder {
 }
 
 .advantages_button a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #fff;
-  border-color: #4BCAFF;
+  border-color: #00B3AC;
 }
 
 @media only screen and (max-width: 767px) {
@@ -9826,7 +9791,7 @@ textarea:-ms-input-placeholder {
 }
 
 .portfolio_content a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 @media only screen and (max-width: 767px) {
@@ -10011,7 +9976,7 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_sidebar .search_form button:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_sidebar .widget_categories {
@@ -10034,7 +9999,7 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_sidebar .widget_categories ul li a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_sidebar .recent_post {
@@ -10082,7 +10047,7 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_sidebar .sidebar_post .post_text h3 a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_sidebar .sidebar_post .post_text span {
@@ -10261,7 +10226,7 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_grid .blog_content h3.post_title a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_grid.video .blog_thumb {
@@ -10338,7 +10303,7 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_content a.read_more:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .post_meta {
@@ -10358,7 +10323,7 @@ textarea:-ms-input-placeholder {
 }
 
 .post_meta span a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .post_meta span a:hover {
@@ -10549,7 +10514,7 @@ textarea:-ms-input-placeholder {
 }
 
 .blog_details_wrapper .post_content blockquote {
-  border-left: 4px solid #4BCAFF;
+  border-left: 4px solid #00B3AC;
   color: #777;
   margin: 20px 0 20px 0;
   padding: 0 20px;
@@ -10570,12 +10535,12 @@ textarea:-ms-input-placeholder {
   margin-right: 5px;
   text-align: center;
   width: 26px;
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .blog_details_wrapper .social_sharing ul li a:hover {
   color: #ffffff;
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .blog_details_wrapper .social_sharing ul li:first-child a {
@@ -10671,7 +10636,7 @@ textarea:-ms-input-placeholder {
 }
 
 .comment_list .comment_content h5 a {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .comment_list .comment_content h5 a:hover {
@@ -10707,7 +10672,7 @@ textarea:-ms-input-placeholder {
 }
 
 .comment_reply a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .comments_form h3 {
@@ -10764,7 +10729,7 @@ textarea:-ms-input-placeholder {
 }
 
 .comments_form button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 .comment_list.list_two {
@@ -10811,7 +10776,7 @@ textarea:-ms-input-placeholder {
 }
 
 .related_content h3 a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .related_content span {
@@ -10920,7 +10885,7 @@ textarea:-ms-input-placeholder {
 }
 
 .see_all a:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .modal_social h2 {
@@ -10952,9 +10917,9 @@ textarea:-ms-input-placeholder {
 }
 
 .modal_social ul li a:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
-  border-color: #4BCAFF;
+  border-color: #00B3AC;
 }
 
 .modal_price {
@@ -10963,7 +10928,7 @@ textarea:-ms-input-placeholder {
 
 .modal_price span {
   font-weight: 600;
-  color: #4BCAFF;
+  color: #00B3AC;
   font-size: 16px;
 }
 
@@ -11015,9 +10980,9 @@ textarea:-ms-input-placeholder {
 }
 
 .modal_add_to_cart form button:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
-  border-color: #4BCAFF;
+  border-color: #00B3AC;
 }
 
 .modal_body {
@@ -11065,7 +11030,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_navactive.owl-carousel .owl-nav div:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
   color: #ffffff;
 }
 
@@ -11157,7 +11122,7 @@ textarea:-ms-input-placeholder {
   right: 0;
   height: 100%;
   width: 110px;
-  background: #4BCAFF;
+  background: #00B3AC;
   cursor: pointer;
   color: #ffffff;
   text-transform: uppercase;
@@ -11218,7 +11183,7 @@ textarea:-ms-input-placeholder {
 }
 
 #popup2:hover {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 /*newsletter popup css end*/
@@ -11234,7 +11199,7 @@ textarea:-ms-input-placeholder {
 .error_form h1 {
   font-size: 200px;
   font-weight: 700;
-  color: #4BCAFF;
+  color: #00B3AC;
   letter-spacing: 10px;
   line-height: 160px;
   margin: 0 0 60px;
@@ -11321,13 +11286,13 @@ textarea:-ms-input-placeholder {
 }
 
 .error_form form button:hover {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 .error_form a {
   color: #fff;
   display: inline-block;
-  background: #4BCAFF;
+  background: #00B3AC;
   font-size: 12px;
   font-weight: bold;
   height: 40px;
@@ -11371,12 +11336,12 @@ textarea:-ms-input-placeholder {
 }
 
 #block-16265959857c01f302-1 .slider_content p.slider_price span {
-  color: #4BCAFF;
+  color: #00B3AC;
 }
 
 #block-16265959857c01f302-1 .slider_content a.button {
-  background: #4BCAFF;
-  border-color: #4BCAFF;
+  background: #00B3AC;
+  border-color: #00B3AC;
   color: #ffffff;
 }
 
@@ -11390,7 +11355,7 @@ textarea:-ms-input-placeholder {
 }
 
 #section-template--14903323820135__16265959857c01f302 .slider_area.owl-carousel .owl-dots .owl-dot.active::before {
-  background: #4BCAFF;
+  background: #00B3AC;
 }
 
 #section-template--14903323820135__1626596575982cca1f.banner_section {

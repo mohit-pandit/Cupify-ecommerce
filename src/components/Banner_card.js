@@ -14,27 +14,27 @@ export const Banner_card = () => {
             <div className="single_banner">
               <div className="banner_thumb">
                 <a href="#">
-                  <img src="http://monsta-demo.myshopify.com/cdn/shop/files/banner5.jpg?v=1614305543" alt="Item Banner" />
+                  <img src={require("../assets/images/Banner/bottleBanner.webp")} alt="Item Banner" />
                 </a>
                 <div className="banner_content text-left">
-                  <p>Fiber</p>
-                  <h2>Design Creative Cup</h2>
-                  <span>From $60.99 – Sale 20%</span>
+                  <p>Steel - Fiber</p>
+                  <h2>Creative Bottles</h2>
+                  <span>Start From ₹ 250.00</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 col-12 mb-30" id="block-1626596575982cca1f-1">
+          <div className="col-lg-6 col-md-6 col-12 mb-30">
             <div className="single_banner">
               <div className="banner_thumb">
                 <a href="#">
-                  <img src="http://monsta-demo.myshopify.com/cdn/shop/files/banner6.jpg?v=1614305543" alt="" />
-                </a>
+                  <img src={require("../assets/images/Banner/cupBanner.webp")} alt="Item Banner" />   
+               </a>
                 <div className="banner_content text-left">
-                  <p>Steel - Fiber</p>
-                  <h2>Creative & Modern stylish Bottle</h2>
-                  <span>Only from $89.00</span>
+                  <p className='text-white'>Fiber</p>
+                  <h2 className='text-white'>Creative Mugs</h2>
+                  <span className='text-white'>Start From ₹ 200.00</span>
                 </div>
               </div>
             </div>
