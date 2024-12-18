@@ -33,14 +33,14 @@ export const Header = () => {
                   <div className="search_btn">
                     <form action="/search" method="get" className="input-group search-bar" role="search" style={{"position": "relative"}}>
 
-                      <input type="search" name="q" value="" placeholder="Search our store" aria-label="Search our store" autocomplete="off"/>
+                      <input type="search" name="q" value="" placeholder="Search our store" aria-label="Search our store" autoComplete="off"/>
                         <button type="submit"><SearchIcon/></button>
                         <ul className="search-results home-two" style={{"position": "absolute", "left": "0px", "top": "43px", "display": "none"}}></ul></form>
                   </div>
 
 
                   <div className="box_setting">
-                    <a href="javascript:void(0)"><SettingsIcon/></a>
+                    <a href="#"><SettingsIcon/></a>
                     <div className="dropdown_setting">
                       <ul>
                         <li><Link to="/item-checkout">Checkout</Link></li>
@@ -58,18 +58,18 @@ export const Header = () => {
                     {/* <!--mini cart--> */}
 
                     <div className="mini_cart">
-                      <div className="mini_cart_inner cart-empty-title" style={{"display":"block;"}}>
+                      <div className="mini_cart_inner cart-empty-title" style={{"display":"block"}}>
                         <h3>Your cart is currently empty.</h3>
                       </div>
-                      <div className="mini_cart_inner single-product-cart" style={{"display":"none;"}}>
+                      <div className="mini_cart_inner single-product-cart" style={{"display":"none"}}>
                         <div className="single-cart-item-loop">
                         </div>
-                        <div className="cart_total" style={{"display":"none;"}}>
+                        <div className="cart_total" style={{"display":"none"}}>
                           <span>Total:</span>
                           <span className="shopping-cart__total"><span className="money" >₹ 460.00</span></span>
                         </div>
                       </div>
-                      <div className="single-product-cart mini_cart_footer" style={{"display":"none;"}}>
+                      <div className="single-product-cart mini_cart_footer" style={{"display":"none"}}>
                         <div className="cart_button view_cart">
                           <Link to="/item-checkout">View Cart</Link>
                         </div>

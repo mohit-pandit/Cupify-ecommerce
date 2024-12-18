@@ -6,15 +6,16 @@ import './Checkout.css'
 
 export const CheckoutItem = () => {
   const [address, setAddress] = useState({
-    country: "United Kingdom",
+    city: "New Delhi",
+    email: "",
     firstName: "",
     lastName: "",
-    company: "",
     address: "",
     apartment: "",
     city: "",
-    postcode: "",
+    Pincode: "",
     phone: "",
+    phone2: "",
   });
 
   const [isAddressSubmitted, setIsAddressSubmitted] = useState(false);
@@ -45,23 +46,41 @@ export const CheckoutItem = () => {
           {/* Address Form */}
           {!isAddressSubmitted ? (
             <form onSubmit={handleSubmitAddress} className="mb-4">
-              <h5>Contact Information</h5>
+              <h4 className="mb-3">Contact Information</h4>
               <input
                 type="email"
                 className="form-control mb-3"
-                placeholder="Email"
+                placeholder="Email address"
+                value={address.email}
+                name="email"
+                onChange={handleInputChange}
+                required
+              />
+              <input
+                type="text"
+                className="form-control mb-3"
+                placeholder="Phone number"
+                name="phone"
+                value={address.phone}
+                onChange={handleInputChange}
                 required
               />
 
-              <h5>Shipping Address</h5>
+              <h4 className="mb-3 mt-4">Shipping Address</h4>
               <select
                 className="form-control mb-3"
-                name="country"
-                value={address.country}
+                name="city"
+                value={address.city}
                 onChange={handleInputChange}
               >
-                <option>United Kingdom</option>
-                <option>United States</option>
+                <option>New Delhi</option>
+                <option>Gurgaon</option>
+                <option>Noida</option>
+                <option>Ghaziabad</option>
+                <option>Faridabad</option>
+                <option>Ballabgarh</option>
+                <option>Okhla</option>
+                <option>Others</option>
               </select>
               <div className="row">
                 <div className="col-md-6 mb-3">
@@ -87,14 +106,7 @@ export const CheckoutItem = () => {
                   />
                 </div>
               </div>
-              <input
-                type="text"
-                className="form-control mb-3"
-                placeholder="Company (optional)"
-                name="company"
-                value={address.company}
-                onChange={handleInputChange}
-              />
+
               <input
                 type="text"
                 className="form-control mb-3"
@@ -128,9 +140,9 @@ export const CheckoutItem = () => {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="Postcode"
-                    name="postcode"
-                    value={address.postcode}
+                    placeholder="Pincode"
+                    name="Pincode"
+                    value={address.Pincode}
                     onChange={handleInputChange}
                     required
                   />
@@ -139,10 +151,11 @@ export const CheckoutItem = () => {
               <input
                 type="text"
                 className="form-control mb-3"
-                placeholder="Phone (optional)"
-                name="phone"
-                value={address.phone}
+                placeholder="Phone 2 (optional)"
+                name="phone2"
+                value={address.phone2}
                 onChange={handleInputChange}
+
               />
 
               <button type="submit" className="btn btn-success w-25 right">
@@ -151,15 +164,16 @@ export const CheckoutItem = () => {
             </form>
           ) : (
             // Display Submitted Address
-            <div className="border p-3 mb-4 rounded">
-              <h5 className="font-weight-bold text-dark">Shipping Address</h5>
-              <p>{`${address.firstName} ${address.lastName}`}</p>
-              <p>{address.company && address.company}</p>
-              <p>{address.address}</p>
-              <p>{address.apartment && address.apartment}</p>
-              <p>{`${address.city}, ${address.postcode}`}</p>
-              <p>{address.country}</p>
-              <p>{address.phone && `Phone: ${address.phone}`}</p>
+            <div className="border p-3 mb-4 rounded shipping-address">
+              <h3 className="font-weight-bold text-dark mb-4">Shipping Address</h3>
+              <span>Name : </span> <p>{` ${address.firstName} ${address.lastName}`}</p>
+              <span>Email : </span> <p>{` ${address.email}`}</p>
+              <span>Address : </span> <p>{address.address}</p>
+              <span>Apartment : </span> <p>{address.apartment && address.apartment}</p>
+              <span>City - Pincode : </span> <p>{`${address.city}, ${address.Pincode}`}</p>
+              <span>City : </span> <p>{address.city}</p>
+              <span>Phone : </span> <p>{address.phone && `${address.phone}`}</p>
+              <span>Phone2 : </span> <p>{address.phone2 && `${address.phone2}`}</p>
               <button
                 className="btn btn-link p-0"
                 onClick={() => setIsAddressSubmitted(false)}

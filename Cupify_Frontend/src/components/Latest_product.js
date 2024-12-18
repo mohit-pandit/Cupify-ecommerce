@@ -1,5 +1,6 @@
 import { Button } from '@mui/material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Latest_product = () => {
     return (
@@ -31,7 +32,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>
@@ -50,7 +53,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -67,7 +72,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -84,7 +91,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -101,7 +110,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -118,7 +129,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -135,14 +148,16 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>
 
 
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -175,7 +190,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>
@@ -194,7 +211,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -211,7 +230,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -228,7 +249,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -245,7 +268,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -262,7 +287,9 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>   <div className='product-container'>
@@ -279,14 +306,16 @@ export const Latest_product = () => {
                                         <span className='off-text'>Save 20% Off</span>
                                     </div>
                                     <div className='product-footer '>
-                                        <Button variant="outlined">Add to cart</Button>
+                                        <Link to="item-details">
+                                            <Button variant="outlined">Add to cart</Button>
+                                        </Link>
                                     </div>
 
                                 </div>
 
 
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>

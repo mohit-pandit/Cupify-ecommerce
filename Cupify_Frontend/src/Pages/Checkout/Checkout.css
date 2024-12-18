@@ -1,0 +1,25 @@
+  .shipping-policy {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .shipping-policy svg {
+    font-size: 30px;
+  }
+
+  .shipping-policy div {
+    padding: 10px 50px;
+    line-height: 20px;
+  }
+
+  .shipping-address p {
+    margin-bottom: 7px;
+  }
+
+  .shipping-address span {
+    margin-right: 4px;
+    float: left;
+    font-weight: bold;
+  }

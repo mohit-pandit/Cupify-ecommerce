@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './ProductDetails.css'
 import LuggageIcon from '@mui/icons-material/Luggage';
 import LockClockIcon from '@mui/icons-material/LockClock';
@@ -23,6 +23,14 @@ import RemoveIcon from "@mui/icons-material/Remove";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export const ProductDetails = () => {
+
+  // State for quantity
+  const [quantity, setQuantity] = useState(1);
+
+  // State for main image
+  const [mainImage, setMainImage] = useState('https://www.milton.in/cdn/shop/files/Glassy_350_Pink_4.jpg?v=1701346019&width=1000');
+
+
   const features = [
     { icon: <LuggageIcon />, label: "Handcrafted" },
     { icon: <LockClockIcon />, label: "Durable" },
@@ -35,6 +43,22 @@ export const ProductDetails = () => {
     'https://www.milton.in/cdn/shop/files/Glassy_350_Pink_4.jpg?v=1701346019&width=1000',
     '//monsta-demo.myshopify.com/cdn/shop/files/slider4.jpg?v=1614305543']
 
+
+  // Increase Quantity
+  const handleIncrease = () => {
+    setQuantity(quantity + 1);
+  };
+
+  // Decrease Quantity
+  const handleDecrease = () => {
+    if (quantity > 1) setQuantity(quantity - 1);
+  };
+
+  // Handle Thumbnail Click
+  const handleThumbnailClick = (img) => {
+    setMainImage(img);
+  };
+
   return (
     <Box sx={{ padding: 2 }}>
       <Grid container spacing={4}>
@@ -44,7 +68,7 @@ export const ProductDetails = () => {
             <CardMedia
               component="img"
               height="300"
-              image="https://www.milton.in/cdn/shop/files/Glassy_350_Pink_4.jpg?v=1701346019&width=1000"
+              image={mainImage}
               alt="Handcrafted Hammered Coffee Mug"
             />
           </Card>
@@ -55,6 +79,7 @@ export const ProductDetails = () => {
                 key={index}
                 src={`${thumb}`}
                 alt={`Thumbnail ${index}`}
+                onClick={() => handleThumbnailClick(thumb)}
                 style={{
                   width: "70px",
                   height: "70px",
@@ -69,7 +94,7 @@ export const ProductDetails = () => {
 
         {/* Right Section: Product Details */}
         <Grid item xs={12} md={6}>
-          <Typography variant="h5">
+          <Typography variant="h5" className="font-weight-bold">
             Handcrafted Hammered Finish Coffee Mug, 440 ML, Femora
           </Typography>
           <Typography sx={{ color: "green", mt: 1 }}>Tax included</Typography>
@@ -89,11 +114,11 @@ export const ProductDetails = () => {
 
           {/* Quantity Selector */}
           <Box sx={{ display: "flex", alignItems: "center", mt: 2 }}>
-            <IconButton>
+            <IconButton onClick={handleDecrease}>
               <RemoveIcon />
             </IconButton>
-            <Typography sx={{ mx: 2 }}>1</Typography>
-            <IconButton>
+            <Typography sx={{ mx: 2 }}>{quantity}</Typography>
+            <IconButton onClick={handleIncrease}>
               <AddIcon />
             </IconButton>
           </Box>
@@ -180,4 +205,3 @@ export const ProductDetails = () => {
     </Box>
   );
 };
-

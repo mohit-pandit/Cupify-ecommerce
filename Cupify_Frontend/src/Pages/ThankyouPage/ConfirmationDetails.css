@@ -1,0 +1,40 @@
+/* Card Shadow */
+.card {
+    border-radius: 10px;
+  }
+  
+  /* Cancel Order Section */
+  .cancel-order {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .cancel-order h6 {
+    margin-bottom: 5px;
+  }
+  
+  .cancel-order .btn {
+    font-weight: 500;
+  }
+  
+  /* Return Policy Styling */
+  .return-policy {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 3px solid #ffc107;
+    border-radius: 5px;
+  }
+  
+  .return-policy a {
+    color: #007bff;
+  }
+  
+  h5.text-success {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  hr {
+    margin: 8px 0;
+  }
+  

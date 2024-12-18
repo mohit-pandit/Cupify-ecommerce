@@ -1,0 +1,34 @@
+/* Progress Container Styling */
+.progress-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress-bar {
+  background-color: #00B3AC; /* Bootstrap primary color */
+  border-radius: 10px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table th{
+  font-weight: 600;
+  color: #000;
+  background-color: #00B3AC;
+}
+small.text-muted {
+  font-size: 0.9rem;
+  color: #00B3AC;
+}
+
+button.btn {
+  padding: 8px 20px;
+  font-weight: 500;
+}
