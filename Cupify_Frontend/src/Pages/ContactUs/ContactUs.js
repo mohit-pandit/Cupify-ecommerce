@@ -4,7 +4,7 @@ import AddIcCallIcon from '@mui/icons-material/AddIcCall';
 import EmailIcon from '@mui/icons-material/Email';
 import RoomIcon from '@mui/icons-material/Room';
 
-export const ContactUs = () => {
+const ContactUs = () => {
 
   const [formData, setFormData] = useState({
     name: "",
@@ -119,3 +119,6 @@ export const ContactUs = () => {
     </div>
   );
 };
+
+
+export default ContactUs;

@@ -4,7 +4,7 @@ import React from "react";
 import SettingsIcon from '@mui/icons-material/Settings';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 
-export const AboutUs = () => {
+const AboutUs = () => {
   return (
     <div className="container my-5">
       <div className="row align-items-center">
@@ -63,3 +63,5 @@ export const AboutUs = () => {
   );
 };
 
+
+export default AboutUs;

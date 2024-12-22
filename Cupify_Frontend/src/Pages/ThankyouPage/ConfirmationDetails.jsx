@@ -2,7 +2,7 @@ import React from 'react';
 import './ConfirmationDetails.css'
 import { CancelOrder } from '../../components/CancelOrder';
 
-export function ConfirmationDetails() {
+function ConfirmationDetails() {
   return (
     <div className="container my-5">
       <div className="card shadow-sm p-4">
@@ -75,3 +75,5 @@ export function ConfirmationDetails() {
     </div>
   );
 }
+
+export default ConfirmationDetails;

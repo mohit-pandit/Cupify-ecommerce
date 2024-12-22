@@ -6,7 +6,7 @@ import { Latest_product } from '../components/Latest_product';
 import { Navbar } from '../components/Header/Navbar/index'
 import { Carousel_card } from '../components/Carousel_card';
 
-export const Home = () => {
+const Home = () => {
   return (
     <>
       <div>
@@ -27,3 +27,5 @@ export const Home = () => {
     </>
   );
 };
+
+export default Home;

@@ -29,7 +29,7 @@ let CartObj = [{
 }]
 
 
-export const MyCart = () => {
+const MyCart = () => {
     const [cartItems, setCartItems] = useState(CartObj)
 
     // Increment quantity for a specific item
@@ -188,3 +188,4 @@ export const MyCart = () => {
     );
 };
 
+export default MyCart;

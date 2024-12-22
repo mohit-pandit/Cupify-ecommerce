@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './Tracking.css'
 import { CancelOrder } from "../../components/CancelOrder";
 
-export const Tracking = () => {
+const Tracking = () => {
   const [trackingState, setTrackingState] = useState("shipped"); // Change state: ordered, ready, shipped, delivered
 
   // State-based progress values
@@ -97,4 +97,6 @@ export const Tracking = () => {
     </div>
   );
 }
+
+export default Tracking;
 

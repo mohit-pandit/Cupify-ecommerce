@@ -81,6 +81,12 @@ export const Header = () => {
                     </div>
                     {/* <!--mini cart end--> */}
                   </div>
+
+                  <div className="ml-3">
+                    <a href="#">
+                    <button>Login</button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

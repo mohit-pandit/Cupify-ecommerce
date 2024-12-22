@@ -22,7 +22,7 @@ import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
-export const ProductDetails = () => {
+const ProductDetails = () => {
 
   // State for quantity
   const [quantity, setQuantity] = useState(1);
@@ -205,3 +205,6 @@ export const ProductDetails = () => {
     </Box>
   );
 };
+
+
+export default ProductDetails;

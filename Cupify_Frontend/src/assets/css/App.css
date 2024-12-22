@@ -5700,7 +5700,8 @@ textarea:-ms-input-placeholder {
 .simple_product_thumb {
   width: 22%;
 }
-.simple_product_thumb img{
+
+.simple_product_thumb img {
   border-radius: 15px;
 }
 
@@ -11483,18 +11484,20 @@ textarea:-ms-input-placeholder {
 .product_container .product-container {
   width: 20%;
   text-align: left;
-  border: 1px solid #e9d9d9;
-  border-radius: 5px;
   padding: 10px;
-  box-shadow: 0px 1px 3px #979696;
   margin: 0 5px;
 }
 
 .product-container .product-item-header {
   border: .5px solid #ebe1e1;
-  border-radius: 2px;
+  border-radius: 8px;
   background: white;
   height: 220px;
+  transition: 1s;
+}
+
+.product-container .product-item-header img {
+  border-radius: 8px;
 }
 
 .product_container.bottom::-webkit-scrollbar {
@@ -11503,42 +11506,65 @@ textarea:-ms-input-placeholder {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .product_container.bottom {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.product-container:hover .product-detail-body .item-title p{
+  text-decoration: underline;
+  font-size: 18px;
+  color: #000;
+}
+
+.product-container:hover .product-item-header{
+  transform: scale(1.1);
+}
+
+.product-container:hover .product-footer button{
+  background-color: #af0808;
+  color: white;
+  border: none;
 }
 
 .product-container .product-detail-body .item-title {
   height: 45px;
 }
+
 .product-container .product-detail-body .item-title p {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .product-container .product-detail-body .item-desc p {
-  font-size: 11px;
+  font-size: 10px;
   line-height: 16px;
   margin-top: 10px;
   color: #998a8a;
 }
 
 .product-container .product-detail-body .buy-discounted-amount {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 0px;
-  color: #12a30a;
+  color: #145a10;
   font-weight: bold;
 }
 
 .product-container .product-detail-body .total-amount {
-  color: #aba3a3
+  color: #877a7a;
+  font-size: 12px;
 }
 
 .product-container .product-footer button {
   width: 100%;
-  color: #fff;
-  background: #af0808;
-  border: none;
+  color: #af0808;
+  background: #fff;
   margin-top: 5px;
+  border: 1px solid #af0808;
+  border-radius: 40px;
+  font-size: 10px;
+  padding: 8px;
 }
 
 .product-container .product-detail-body .off-text {
