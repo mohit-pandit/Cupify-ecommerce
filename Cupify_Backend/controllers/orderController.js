@@ -1,9 +1,10 @@
 const logger = require("express-logger");
-const { getOrderById } = require("../models/orders_model");
+const { getOrderById, InsertOrderInDB } = require("../models/orders_model");
 
 const BookCupifyOrder = (req, res) => {
     try {
-        logger.info("Cupify Item Order payload", req.body)
+        console.log("Cupify Item Order payload", req.body)
+        // logger.info("Cupify Item Order payload", req.body)
         const bodyPayload = req?.body
         if (bodyPayload?.length === 0) {
             return res.status(400).json({
@@ -28,7 +29,7 @@ const BookCupifyOrder = (req, res) => {
                 status: true,
                 code: 200,
                 data: '',
-                message: 'Order Received Inserted Successfully'
+                message: 'Order Received Successfully'
             });
         })
 
